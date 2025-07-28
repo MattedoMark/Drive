@@ -3193,6 +3193,26 @@
 		)
 		(uuid "121f0375-143a-496b-8a82-b76ee53da182")
 	)
+	(text_box "Microcontroller"
+		(exclude_from_sim no)
+		(at 20.32 19.05 0)
+		(size 80.01 77.47)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "14062aed-560b-4504-9d84-da905adc8544")
+	)
 	(text_box "Battery"
 		(exclude_from_sim no)
 		(at 191.77 44.45 0)
@@ -3213,7 +3233,7 @@
 		)
 		(uuid "480c55da-fc33-47dd-9a67-2f70d567400a")
 	)
-	(text_box "MOTOR DRIVERS"
+	(text_box "Brushed Speed Controller"
 		(exclude_from_sim no)
 		(at 96.52 107.95 0)
 		(size 76.2 62.23)
@@ -7525,7 +7545,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02"
-			(at 29.972 28.448 0)
+			(at 21.082 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
