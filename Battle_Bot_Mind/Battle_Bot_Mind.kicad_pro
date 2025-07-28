@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "drive_prod/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
