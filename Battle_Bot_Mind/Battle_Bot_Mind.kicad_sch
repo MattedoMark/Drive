@@ -131,6 +131,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016)
@@ -3195,8 +3317,8 @@
 	)
 	(text_box "Microcontroller"
 		(exclude_from_sim no)
-		(at 20.32 19.05 0)
-		(size 80.01 77.47)
+		(at 17.78 19.05 0)
+		(size 82.55 77.47)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3381,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 137.16) (xy 62.23 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "089087ca-7515-41d9-b0a4-d24c54b3fb3a")
-	)
-	(wire
-		(pts
 			(xy 156.21 50.8) (xy 156.21 52.07)
 		)
 		(stroke
@@ -3478,16 +3590,6 @@
 			(type default)
 		)
 		(uuid "3f4f9a0b-f7bc-48bf-b089-aef0d4ada082")
-	)
-	(wire
-		(pts
-			(xy 40.64 137.16) (xy 49.53 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4173ffb7-14b9-4e41-a74a-9a62ce41ba94")
 	)
 	(wire
 		(pts
@@ -3611,7 +3713,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 45.72) (xy 44.45 45.72)
+			(xy 34.29 45.72) (xy 44.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3971,16 +4073,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 137.16) (xy 62.23 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9b82a4-d7a6-4e60-9957-84f977c2f62d")
-	)
-	(wire
-		(pts
 			(xy 129.54 157.48) (xy 130.81 157.48)
 		)
 		(stroke
@@ -4028,16 +4120,6 @@
 			(justify right bottom)
 		)
 		(uuid "1bc72b5f-2291-485a-8ef5-c7f44872da20")
-	)
-	(label "ESC_PWM"
-		(at 41.91 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "280b15ed-dc49-4c0f-a147-cd67f19c2378")
 	)
 	(label "PH_B"
 		(at 41.91 63.5 180)
@@ -4099,16 +4181,6 @@
 		)
 		(uuid "7467033f-4576-4fcc-aa3c-93e428bc3133")
 	)
-	(label "L2"
-		(at 40.64 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c8d8869-275a-4fc9-94ad-9d366748b587")
-	)
 	(label "PH_B"
 		(at 147.32 134.62 0)
 		(effects
@@ -4169,15 +4241,15 @@
 		)
 		(uuid "aba463f3-2787-433e-bbe5-a106ce1b9978")
 	)
-	(label "L2"
-		(at 41.91 71.12 180)
+	(label "BOOT"
+		(at 41.91 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ac5a7a31-5e46-48f2-a77b-5adee899a227")
+		(uuid "abb5c02e-b941-4a7c-a23e-6810d8ff693d")
 	)
 	(label "PH_A"
 		(at 147.32 127 0)
@@ -4208,6 +4280,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb5b0747-b170-4f63-afba-585dbf69729f")
+	)
+	(label "ESC_PWM"
+		(at 41.91 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0a04a19-f815-435e-a9c9-0c973ad7f26a")
 	)
 	(label "USB_D+"
 		(at 163.83 76.2 270)
@@ -4330,73 +4412,6 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 53.34 137.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0be06e8c-7671-4819-9075-314a7a95c884")
-		(property "Reference" "R4"
-			(at 53.34 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "300r"
-			(at 53.34 139.192 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 53.34 138.938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c50aed8c-e77a-4564-91ac-51d5f682ca85")
-		)
-		(pin "2"
-			(uuid "d6c01641-19d4-49fe-bbf4-acc4a77a33f7")
-		)
-		(instances
-			(project "Battle_Bot_Mind"
-				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5293,35 +5308,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 62.23 143.51 90)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 29.21 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ff0af2c-9fc7-433b-a183-8a5da43e5244")
-		(property "Reference" "D1"
-			(at 66.04 143.8274 90)
+		(uuid "4093c407-a126-4440-836c-4df5579e508a")
+		(property "Reference" "J4"
+			(at 33.274 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 66.04 146.3674 90)
+		(property "Value" "Conn_01x01_Pin"
+			(at 26.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 62.23 143.51 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 29.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5342,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 143.51 0)
+			(at 29.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,8 +5350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 62.23 143.51 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 29.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,15 +5360,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3d83d0c2-e035-4405-8a3f-b6f1bcb86e11")
-		)
-		(pin "2"
-			(uuid "da11b2c5-1ace-49d9-838b-ebc61b05c3ef")
+			(uuid "020d3e09-f3ae-401f-bfb9-e6ce348b41e5")
 		)
 		(instances
-			(project "Battle_Bot_Mind"
+			(project ""
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
-					(reference "D1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6629,72 +6638,6 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 62.23 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aae1ed31-e3da-4d84-b2b0-a237f9d73f2b")
-		(property "Reference" "#PWR021"
-			(at 62.23 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 62.23 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95d91913-a2f3-4971-b5c4-24aa4a9c2588")
-		)
-		(instances
-			(project "Battle_Bot_Mind"
-				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
