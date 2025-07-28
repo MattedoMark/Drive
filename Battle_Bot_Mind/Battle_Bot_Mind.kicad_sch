@@ -5312,9 +5312,9 @@
 		(at 29.21 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4093c407-a126-4440-836c-4df5579e508a")
 		(property "Reference" "J4"
 			(at 33.274 40.64 0)
