@@ -3607,6 +3607,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9e80b5-1394-446d-adf8-b1db05f6219f")
+	)
+	(wire
+		(pts
 			(xy 86.36 39.37) (xy 77.47 39.37)
 		)
 		(stroke
@@ -3817,6 +3827,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 133.35) (xy 68.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6920313-1d6d-402f-8499-88a2c654636e")
+	)
+	(wire
+		(pts
 			(xy 167.64 73.66) (xy 167.64 76.2)
 		)
 		(stroke
@@ -3967,6 +3987,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 133.35) (xy 68.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cfc757-cc80-4d65-8458-2b34b4d5c0cc")
+	)
+	(wire
+		(pts
 			(xy 77.47 44.45) (xy 86.36 44.45)
 		)
 		(stroke
@@ -4024,6 +4054,16 @@
 			(justify right bottom)
 		)
 		(uuid "0441f0d1-0df3-41cd-a44d-115fe4758a50")
+	)
+	(label "L2"
+		(at 41.91 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06769b0d-47f4-40c4-8599-8f2056638a30")
 	)
 	(label "USB_D-"
 		(at 167.64 76.2 270)
@@ -4214,6 +4254,16 @@
 			(justify right bottom)
 		)
 		(uuid "d6137fd9-cedc-4d6f-883c-a863d7538c8d")
+	)
+	(label "L2"
+		(at 48.26 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7400de6-3d80-46b7-9923-db06bfe9f2ff")
 	)
 	(label "PWM_B"
 		(at 41.91 48.26 180)
@@ -4582,6 +4632,72 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31b8f8c9-25ab-4f9e-9b7a-e541f283e43e")
+		(property "Reference" "#PWR015"
+			(at 68.58 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85933a84-7485-4f90-b4b4-ac99617c9aa1")
+		)
+		(instances
+			(project "Battle_Bot_Mind"
+				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -5463,6 +5579,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 60.96 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7354cfcf-4f02-4de2-a817-623750cbfd41")
+		(property "Reference" "R4"
+			(at 60.96 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330r"
+			(at 60.96 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 60.96 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d1b1a86-1b93-419e-8f76-32ac745f1168")
+		)
+		(pin "2"
+			(uuid "947b5f26-70ee-464e-ae2b-e26ad5e3e6aa")
+		)
+		(instances
+			(project "Battle_Bot_Mind"
+				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 139.7 0)
 		(unit 1)
@@ -6089,7 +6272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9748571-2424-4453-bdcd-79482d2e6a08")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 83.82 136.2074 90)
 			(effects
 				(font
@@ -6152,7 +6335,7 @@
 		(instances
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6832,6 +7015,85 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 68.58 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1b4e73b-e6e0-4841-9cae-4ac2d9be1d67")
+		(property "Reference" "D2"
+			(at 72.39 140.0174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 72.39 142.5574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55e952ab-549e-463f-bf7b-db904f611bc7")
+		)
+		(pin "2"
+			(uuid "96c7cafb-dbee-45e5-9172-0f99f4ffb0ce")
+		)
+		(instances
+			(project "Battle_Bot_Mind"
+				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
+					(reference "D2")
 					(unit 1)
 				)
 			)
