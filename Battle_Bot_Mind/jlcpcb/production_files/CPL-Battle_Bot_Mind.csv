@@ -1,0 +1,22 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,10u,C_0805_2012Metric,125.75,-79.95,-90.0,top
+C5,10u,C_0805_2012Metric,150.0,-92.0,180.0,top
+C6,2.2u,C_0805_2012Metric,144.05,-91.75,0.0,top
+D1,LED,LED_0402_1005Metric,116.0,-72.235,90.0,top
+D2,LED,LED_0402_1005Metric,113.5,-72.235,90.0,top
+DBG1,Conn_01x03_Pin,PinHeader_1x03_P2.00mm_Vertical,122.25,-72.25,90.0,top
+J1,USB_C_Receptacle_USB2.0_14P,USB_C_Receptacle_HRO_TYPE-C-31-M-12,133.0,-76.96,180.0,top
+J2,Conn_01x02_Socket,AMASS_XT30U-F_1x02_P5.0mm_Vertical,142.75,-76.3,-90.0,top
+J3,Conn_01x03_Pin,PinHeader_1x03_P2.00mm_Vertical,148.75,-76.25,0.0,top
+J4,Conn_01x01_Pin,PinSocket_1x01_P2.54mm_Vertical,110.5,-72.25,0.0,top
+M1,Conn_01x02_Socket,PinHeader_1x02_P1.27mm_Vertical,136.8,-86.26,0.0,top
+M2,Conn_01x02_Socket,PinHeader_1x02_P1.27mm_Vertical,136.5,-91.185,0.0,top
+R1,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,133.5,-82.81,0.0,top
+R2,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,132.9025,-81.5,180.0,top
+R3,300r,R_0402_1005Metric,117.25,-72.21,90.0,top
+R4,300r,R_0402_1005Metric,114.75,-72.21,90.0,top
+R5,22r,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,123.0,-78.038,180.0,top
+R6,22r,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,123.0,-76.788,180.0,top
+U1,ESP32-C3-WROOM-02,ESP32-C3-WROOM-02,113.2,-84.25,90.0,top
+U2,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,127.5,-88.275,180.0,top
+U4,LD1117S33TR_SOT223,SOT-223-3_TabPin2,147.25,-86.5,0.0,top
