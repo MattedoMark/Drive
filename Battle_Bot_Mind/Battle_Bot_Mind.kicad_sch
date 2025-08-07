@@ -4554,15 +4554,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22438286"
-			(at 257.048 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "931b59c5-d0ca-4278-b59b-d2eb722b6ebe")
 		)
@@ -5590,15 +5581,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492401"
-			(at 161.29 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "64e2bfc4-7ea7-419a-b235-b4cc5b7dddfe")
 		)
@@ -5801,15 +5783,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 154.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C492401"
 			(at 154.94 134.62 0)
 			(effects
 				(font
