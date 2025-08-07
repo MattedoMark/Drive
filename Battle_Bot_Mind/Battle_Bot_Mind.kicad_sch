@@ -4554,6 +4554,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22438286"
+			(at 257.048 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "931b59c5-d0ca-4278-b59b-d2eb722b6ebe")
 		)
@@ -4831,6 +4840,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C86781"
+			(at 243.332 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32fde6ad-45c2-4036-ab77-1d2245f0f5e1")
 		)
@@ -4866,7 +4884,7 @@
 				)
 			)
 		)
-		(property "Value" "330r"
+		(property "Value" "300r"
 			(at 60.96 124.968 90)
 			(effects
 				(font
@@ -4894,6 +4912,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25102"
+			(at 60.96 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5332,7 @@
 			)
 		)
 		(property "LCSC" "C165948"
-			(at 133.35 59.69 0)
+			(at 171.958 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,6 +5590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C492401"
+			(at 161.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "64e2bfc4-7ea7-419a-b235-b4cc5b7dddfe")
 		)
@@ -5595,7 +5631,7 @@
 				)
 			)
 		)
-		(property "Value" "330r"
+		(property "Value" "300r"
 			(at 60.96 131.318 90)
 			(effects
 				(font
@@ -5623,6 +5659,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25102"
+			(at 60.96 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,6 +5809,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C492401"
+			(at 154.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "762317b6-4fd8-416d-b9de-98953a0d78d3")
 		)
@@ -5824,6 +5878,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 196.85 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C428721"
+			(at 210.058 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,6 +6389,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965793"
+			(at 80.01 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05be9b1c-b7e4-4931-a35f-eb575e61f17a")
 		)
@@ -6806,6 +6878,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C141517"
+			(at 162.814 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "da435fd0-0b38-4f23-a5ea-84a236d4e504")
 		)
@@ -7084,6 +7165,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965793"
+			(at 68.58 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "55e952ab-549e-463f-bf7b-db904f611bc7")
 		)
@@ -7118,7 +7208,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02"
-			(at 21.082 22.86 0)
+			(at 18.796 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7146,6 +7236,15 @@
 		)
 		(property "Description" "802.11 b/g/n Wi­Fi and Bluetooth 5 module, ESP32­C3 SoC, RISC­V microprocessor, On-board antenna"
 			(at 59.69 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2944070"
+			(at 94.742 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
