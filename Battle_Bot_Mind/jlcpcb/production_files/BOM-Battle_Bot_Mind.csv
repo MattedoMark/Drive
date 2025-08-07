@@ -8,7 +8,7 @@ ESP32-C3-WROOM-02,U1,ESP32-C3-WROOM-02,C2944070,1
 Conn_01x02_Socket,J2,AMASS_XT30U-F_1x02_P5.0mm_Vertical,C428721,1
 LD1117S33TR_SOT223,U4,SOT-223-3_TabPin2,C86781,1
 LED,"D1,D2",LED_0402_1005Metric,C965793,2
-Conn_01x02_Socket,M2,PinHeader_1x02_P1.27mm_Vertical,,1
-Conn_01x02_Socket,M1,PinHeader_1x02_P1.27mm_Vertical,,1
+Conn_01x02_Socket,M2,PinHeader_1x02_P2.54mm_Vertical,,1
+Conn_01x02_Socket,M1,PinHeader_1x02_P2.54mm_Vertical,,1
 2.2u,C6,C_0805_2012Metric,,1
 Conn_01x03_Pin,J3,PinHeader_1x03_P2.00mm_Vertical,,1
