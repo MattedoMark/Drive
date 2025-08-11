@@ -3517,6 +3517,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 109.22) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c00a49-9899-40d8-a8b0-2cb7517ed41c")
+	)
+	(wire
+		(pts
 			(xy 123.19 151.13) (xy 125.73 151.13)
 		)
 		(stroke
@@ -3584,16 +3594,6 @@
 			(type default)
 		)
 		(uuid "67b9b45a-24a3-4c7f-9506-10eac21f2209")
-	)
-	(wire
-		(pts
-			(xy 146.05 114.3) (xy 146.05 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c92ac64-3b2b-4a32-b1bf-72a2dfea9400")
 	)
 	(wire
 		(pts
@@ -3737,16 +3737,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 115.57) (xy 146.05 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c610e2c-8e4b-485e-9c15-e32540ed6d29")
-	)
-	(wire
-		(pts
 			(xy 232.41 142.24) (xy 232.41 143.51)
 		)
 		(stroke
@@ -3764,6 +3754,16 @@
 			(type default)
 		)
 		(uuid "93c4f004-6996-453d-b5ff-514b79a26369")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 143.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942d4215-ec92-4921-9b4e-cea2efc5bb53")
 	)
 	(wire
 		(pts
@@ -3874,6 +3874,16 @@
 			(type default)
 		)
 		(uuid "c6846bb4-77ad-41ba-84a5-d38ea5c8359b")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05b95bb-f1e9-45b8-8b2b-d69f4207823a")
 	)
 	(wire
 		(pts
@@ -4255,6 +4265,16 @@
 		)
 		(uuid "d6137fd9-cedc-4d6f-883c-a863d7538c8d")
 	)
+	(label "+BATT"
+		(at 146.05 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dff9d280-9fc6-4848-b782-72d68a750f88")
+	)
 	(label "L2"
 		(at 48.26 133.35 0)
 		(effects
@@ -4284,16 +4304,6 @@
 			(justify right bottom)
 		)
 		(uuid "e9c7e2f3-aead-4542-91e5-f41e56a91daf")
-	)
-	(label "+BATT"
-		(at 146.05 114.3 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee819bc5-6b5d-4004-aa8a-3fee66090d75")
 	)
 	(label "AIN1"
 		(at 123.19 143.51 180)
@@ -4365,6 +4375,71 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "065b6fcf-0a84-4451-a0e1-4352b951f175")
+		(property "Reference" "#PWR017"
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e92c9104-19d4-483c-963d-b4fd29e3918b")
+		)
+		(instances
+			(project "Battle_Bot_Mind"
+				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5456,6 +5531,74 @@
 			(project "Battle_Bot_Mind"
 				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 140.97 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57c14cc6-00a1-4368-85c4-81c8413e2bdf")
+		(property "Reference" "M3"
+			(at 149.098 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 141.605 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 140.97 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b22bb6fd-2708-433e-8f32-d80d4de2cce5")
+		)
+		(pin "1"
+			(uuid "2787db13-2c35-4949-ab34-31c5e178a40a")
+		)
+		(instances
+			(project "Battle_Bot_Mind"
+				(path "/8ed2f3d0-7b52-4238-85e9-85e2bfa6cfdb"
+					(reference "M3")
 					(unit 1)
 				)
 			)
