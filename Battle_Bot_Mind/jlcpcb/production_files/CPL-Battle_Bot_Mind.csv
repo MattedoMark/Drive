@@ -11,6 +11,7 @@ J3,Conn_01x03_Pin,PinHeader_1x03_P2.00mm_Vertical,148.75,-76.25,0.0,top
 J4,Conn_01x01_Pin,PinSocket_1x01_P2.54mm_Vertical,110.5,-72.25,0.0,top
 M1,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,136.73,-86.25,-90.0,top
 M2,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,136.745,-91.0,90.0,top
+M3,Conn_01x02_Socket,PinHeader_1x02_P2.54mm_Vertical,122.25,-81.73,180.0,top
 R1,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,133.5,-82.81,0.0,top
 R2,5.1k,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,132.9025,-81.5,180.0,top
 R3,300r,R_0402_1005Metric,117.25,-72.21,90.0,top
